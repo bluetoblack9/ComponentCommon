@@ -1,5 +1,7 @@
 apply plugin: 'maven'
 apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'https://github.com/bluetoblack9'// 必加 com.github.<用户名>   (就是你自己的github上的地址)
 //android studio 错误: 编码GBK的不可映射字符
 tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
