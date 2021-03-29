@@ -3,7 +3,9 @@ plugins {
 }
 
 //添加发布到jitpack脚本 与发布打Maven类似, 本人没有私有Maven库,所以使用
-apply from :"maven_push.gradle"
+apply from :"jitpack_push.gradle"
+// 私有服务器上传配置参考
+//apply from:"maven_push.gradle"
 
 android {
     compileSdkVersion 30
